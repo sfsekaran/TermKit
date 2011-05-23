@@ -43,7 +43,7 @@ Unfortunately, TermKit currently requires some assembly.
 5. Clone the TermKit repository: `git clone https://github.com/unconed/TermKit.git --recursive`
 6. Users of older git versions will need to type: `git submodule update --init`
 7. Run the NodeKit daemon: `cd TermKit/Node; node nodekit.js`
-8. Unzip and run the Mac app in Build/TermKit.zip
+8. Run `bin/termkit_install_app` to install into Applications (or manually unzip and run the Mac app in Build/TermKit.zip)
 
 *Tip:* Press ⌥⌘C to access the WebKit console.
 

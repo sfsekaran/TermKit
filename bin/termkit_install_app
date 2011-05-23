@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIRECTORY=$(cd `dirname $0` && cd .. && pwd)
+
+unzip $DIRECTORY/Build/TermKit.zip -d $DIRECTORY/Build > /dev/null
+cp -R $DIRECTORY/Build/TermKit.app /Applications
+rm -rf $DIRECTORY/Build/TermKit.app
+
+echo "TermKit.app => Applications"
+echo "Enjoy!"
